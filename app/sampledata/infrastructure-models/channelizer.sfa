@@ -1,0 +1,171 @@
+{
+  animations: [
+    {
+      name: 'channelizer',
+      path: 'sampledata/infrastructure-models/channelizer.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_117',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '389',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_119',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '398',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_121',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '406',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/infrastructure-models/channelizer.fbx',
+    name: 'channelizer',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\406.png',
+      name: '406',
+      pipeline_name: 'channelizer.fbm\\406.png',
+    },
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\389.png',
+      name: '389',
+      pipeline_name: 'channelizer.fbm\\389.png',
+    },
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\393.png',
+      name: '393',
+      pipeline_name: 'channelizer.fbm\\393.png',
+    },
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\398.png',
+      name: '398',
+      pipeline_name: 'channelizer.fbm\\398.png',
+    },
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\409.png',
+      name: '409',
+      pipeline_name: 'channelizer.fbm\\409.png',
+    },
+    {
+      file: 'sampledata/infrastructure-models\\channelizer.fbm\\401.png',
+      name: '401',
+      pipeline_name: 'channelizer.fbm\\401.png',
+    },
+  ],
+  version: '0.54:1',
+}
